@@ -41,7 +41,7 @@ for (i in 1 : n) {
 #init k, steps, seed
 k <- 8;
 max_iterations <- 20;
-set.seed(37);
+set.seed(80);
 
 #cluster using k-means
 result <- kmeans(D, k, max_iterations);
